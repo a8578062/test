@@ -14,7 +14,7 @@ smtpObj=smtplib.SMTP('smtp.qq.com', 587)
 smtpObj.ehlo()
 smtpObj.starttls()
 #传入相应的账号密码信息
-smtpObj.login('1021295302@qq.com', 'vgnjpnaeuwaqbbbi')
+smtpObj.login('1021295302@qq.com', '')
 
 #邮件收发信人信息
 sender = '1021295302@qq.com'#发件人信息
